@@ -30,6 +30,17 @@
       *  Justify and define user’s roles, permissions, and access-levels as a database administrator. Create database security settings.
       *  Demonstrate an understanding of data warehousing, data mining, and data analytic techniques.
 
+#### [LIS4368: Advanced Web Application](lis4381/README.md)
+    * Course Description:This course provides a foundation in developing web applications with an emphasis on server-side concepts, tools and methods. Topics include basic web application programming, advanced object- oriented (OOP) and web application development utilizing Tomcat and Java Servlets.
+    * Cource Objectives
+      * Demonstrate the ability to program and deploy client/server-side scripts
+      * Describe web-based input and output processes
+      * Demonstrate web application to data source connectivity
+      * Develop a dynamic web application using a mix of front-end and back-end web technologies
+      * Employ OOP techniques, as well as business logic using a strongly typed language.
+      * Create client- and server-side data validation.
+
+
 #### Interactive Resume
     * Details Current/Past Work Experience
     * Portfolio of Senior Design Project Management, Junior Research Paper, and other small projects.
