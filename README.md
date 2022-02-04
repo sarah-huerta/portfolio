@@ -39,9 +39,3 @@
       * Develop a dynamic web application using a mix of front-end and back-end web technologies
       * Employ OOP techniques, as well as business logic using a strongly typed language.
       * Create client- and server-side data validation.
-
-
-#### Interactive Resume
-    * Details Current/Past Work Experience
-    * Portfolio of Senior Design Project Management, Junior Research Paper, and other small projects.
-    * [Click Here to be redirected.](https://sah16m.wixsite.com/sarahhuerta)
