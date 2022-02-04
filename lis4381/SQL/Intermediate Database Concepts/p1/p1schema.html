@@ -1,0 +1,161 @@
+<html><head>
+<title>Schema Report for database: sah16m</title>
+<style>
+        td,th {
+        text-align:left;
+        vertical-align:middle;
+        }
+        table {
+        border-collapse: collapse;
+        border: 1px solid;
+        }
+        caption, th, td {
+        padding: .2em .8em;
+        border: 1px solid #000000;
+        }
+        caption {
+        background: #D3D3D3;
+        font-weight: bold;
+        font-size: 1.1em;
+        }
+        th {
+        font-weight: bold;
+        background: #000000;
+        color: white;
+        }
+        td {
+        background: #FFFFFF;
+        }
+        </style>
+      </head>
+     <body>
+<h1>Schema Report for database: sah16m</h1>
+<a id="home">Table List </a><br /><ul>
+<li><a href="#user">user </a></li>
+<li><a href="#transaction">transaction </a></li>
+<li><a href="#catagory">catagory </a></li>
+<li><a href="#account">account </a></li>
+<li><a href="#source">source </a></li>
+<li><a href="#institution">institution </a></li>
+</ul>
+<a id="user"></a><table style="width:100%"><caption>Table: user </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>usr_id</td><td>TINYINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_fname</td><td>VARCHAR(15)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_lname</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_street</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_city</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_state</td><td>CHAR(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_zip</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_phone</td><td>BIGINT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_email</td><td>VARCHAR(100)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="transaction"></a><table style="width:100%"><caption>Table: transaction </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>trn_id</td><td>MEDIUMINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>src_id</td><td>SMALLINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>cat_id</td><td>TINYINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>trn_type</td><td>ENUM('credit', 'debit')</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>trn_method</td><td>VARCHAR(15)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>trn_amt</td><td>DECIMAL(7,2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>trn_date</td><td>DATETIME</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>trn_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="catagory"></a><table style="width:100%"><caption>Table: catagory </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>cat_id</td><td>TINYINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_type</td><td>ENUM('salary', 'bonus', 'pension', 'social security', 'unemployment', 'disability', 'royalty', 'interest', 'dividend', 'tax return', 'gift', 'child support', 'alimony', 'award', 'grant', 'scholarship', 'inheritance', 'misc', 'housing', 'food', 'transportation', 'charity', 'investment', 'insurance', 'clothing', 'saving', 'health', 'personal', 'recreation', 'debt', 'school', 'childcare')</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="account"></a><table style="width:100%"><caption>Table: account </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>act_id</td><td>TINYINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>act_type</td><td>VARCHAR(20)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>act_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="source"></a><table style="width:100%"><caption>Table: source </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>src_id</td><td>SMALLINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>usr_id</td><td>TINYINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>ins_id</td><td>TINYINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>act_id</td><td>TINYINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>src_start_date</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>src_end_date</td><td>DATE</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>src_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="institution"></a><table style="width:100%"><caption>Table: institution </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>ins_id</td><td>TINYINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_name</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_street</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_city</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_state</td><td>CHAR(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_zip</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_phone</td><td>BIGINT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_email</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_url</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_contact</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>ins_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+</body></html>

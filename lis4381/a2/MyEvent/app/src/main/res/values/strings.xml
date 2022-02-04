@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Event</string>
+        <string name="txtTitle">Ticket Value</string>
+        <string name="txtTickets">Number of Tickets</string>
+        <string name="prompt">Select Group</string>
+        <string name="description">Concert Image</string>
+        <string name="btnCost">Calculate</string>
+        <string name="number_of_tickets">Number of Tickets</string>
+        <string-array name="txtGroup" >
+            <item>Taylor Swift</item>
+            <item>Miley Cyrus</item>
+            <item>Lorde</item>
+            <item>Ashe</item>
+        </string-array>
+    </resources>

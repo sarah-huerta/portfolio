@@ -1,0 +1,205 @@
+<html><head>
+<title>Schema Report for database: sah16m</title>
+<style>
+        td,th {
+        text-align:left;
+        vertical-align:middle;
+        }
+        table {
+        border-collapse: collapse;
+        border: 1px solid;
+        }
+        caption, th, td {
+        padding: .2em .8em;
+        border: 1px solid #000000;
+        }
+        caption {
+        background: #D3D3D3;
+        font-weight: bold;
+        font-size: 1.1em;
+        }
+        th {
+        font-weight: bold;
+        background: #000000;
+        color: white;
+        }
+        td {
+        background: #FFFFFF;
+        }
+        </style>
+      </head>
+     <body>
+<h1>Schema Report for database: sah16m</h1>
+<a id="home">Table List </a><br /><ul>
+<li><a href="#member">member </a></li>
+<li><a href="#loaner">loaner </a></li>
+<li><a href="#book">book </a></li>
+<li><a href="#publisher">publisher </a></li>
+<li><a href="#category">category </a></li>
+<li><a href="#book_cat">book_cat </a></li>
+<li><a href="#attribution">attribution </a></li>
+<li><a href="#author">author </a></li>
+</ul>
+<a id="member"></a><table style="width:100%"><caption>Table: member </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>mem_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_fname</td><td>VARCHAR(15)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_lname</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_street</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_city</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_state</td><td>CHAR(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_zip</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_phone</td><td>BIGINT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_email</td><td>VARCHAR(100)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="loaner"></a><table style="width:100%"><caption>Table: loaner </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>lon_id</td><td>MEDIUMINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>mem_id</td><td>SMALLINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>bok_isbn</td><td>VARCHAR(13)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>lon_loan_date</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>lon_due_date</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>lon_return_date</td><td>DATE</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>lon_late_fee</td><td>DECIMAL(5,2)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>lon_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="book"></a><table style="width:100%"><caption>Table: book </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>bok_isbn</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_id</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>bok_title</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_pub_date</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_num_pages</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_cost</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_price</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_notes</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="publisher"></a><table style="width:100%"><caption>Table: publisher </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>pub_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_name</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_street</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_city</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_state</td><td>CHAR(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_zip</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_phone</td><td>BIGINT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_email</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_url</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>pub_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="category"></a><table style="width:100%"><caption>Table: category </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>cat_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_type</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="book_cat"></a><table style="width:100%"><caption>Table: book_cat </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>bct_id</td><td>MEDIUMINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>bok_isbn</td><td>VARCHAR(13)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>cat_id</td><td>SMALLINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>bct_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="attribution"></a><table style="width:100%"><caption>Table: attribution </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>att_id</td><td>MEDIUMINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_id</td><td>MEDIUMINT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>bok_isbn</td><td>VARCHAR(13)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>att_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="author"></a><table style="width:100%"><caption>Table: author </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>aut_id</td><td>MEDIUMINT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_fname</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_lname</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_street</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_city</td><td>VARCHAR(30)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_state</td><td>CHAR(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_zip</td><td>INT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_phone</td><td>BIGINT</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_email</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_url</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>aut_notes</td><td>VARCHAR(255)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+</body></html>

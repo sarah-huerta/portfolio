@@ -1,0 +1,10 @@
+NULL,1,1,credit,atm,5855.12,04/07/2020 ,\N
+NULL,1,2,credit,atm,630.77,10/23/2020 ,\N
+NULL,2,3,credit,bank,1575.85,05/01/2020 ,\N
+NULL,2,4,credit,bank,843.34,08/07/2020 ,\N
+NULL,3,5,debit,300,4089.33,03/08/2021 ,\N
+NULL,3,1,debit,500,398.53,01/27/2020 ,\N
+NULL,4,2,credit,pos,68.63,04/20/2021 ,\N
+NULL,4,3,credit,pos,2533.43,03/11/2020 ,\N
+NULL,5,4,debit,123,6385.25,04/16/2021 ,\N
+NULL,5,5,credit,check,257.44,01/02/2020 ,\N

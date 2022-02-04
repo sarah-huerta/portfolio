@@ -1,0 +1,16 @@
+def get_requirements():
+    print("Data Analysis 1")
+    print("Developer: Sarah Huerta")
+    print("Program Requirements:")
+
+    print("1. Run demo.py")
+    print("2. If errors, more than likely missing installations.")
+    print("3. Test Python Package Installer: pip freeze")
+    print("4. Research how to do the following installations:")
+    print("\ta. pandas (only if missing)")
+    print("\tb. pandas_datareader (only if missing)")
+    print("\tc. matplotlib (only if missing)")
+    print("5. Create at least three functions that are called by the program: ")
+    print("\ta. main(): calls at least two other functions.")
+    print("\tb. get_requirements(): displays the program requirements")
+    print("\tc. data_analysis_1(): displays the following data.")
