@@ -37,10 +37,10 @@
 
 #### Skill Sets
 
-| Skill Set 1 |
+| Skill Set 4 |
 | ------- |
-| ![ss1](../skill_sets/ss1/ss1.png) |
+| ![ss4](../skill_sets/ss4/ss4.png) |
 
-| Skill Set 2 | Skill Set 3
+| Skill Set 5 | Skill Set 6
 | ------- | ------ |
-| ![ss2](../skill_sets/ss2/ss2.png) | ![ss3](../skill_sets/ss3/ss3.png) |
+| ![ss5](../skill_sets/ss5/ss5.png) | ![ss6](../skill_sets/ss6/ss6.png) |

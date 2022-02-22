@@ -26,6 +26,10 @@ Please Check Back Soon For Updates
 
 4. [P1 README.md](p1/README.md "My P1 README.md file")
 
+    * Create Online Portfolio using Tomcat and Java Servlets
+    * Use jQuery to validate client side data
+    * Link to local host web Application
+    * Skill Set 7-9
 
 5. [A4 README.md](a4/README.md "My A4 README.md file")
 

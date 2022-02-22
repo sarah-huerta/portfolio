@@ -22,7 +22,9 @@
     * Populating data and pushing to both local and cloud server.
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
-
+    * Download, Install, and operate Microsoft Remote Desktop to run Oracle Server
+    * Create Customer, Commodity, and Order tables
+    * Create and Excute Queries to retrieve specified information
 
 4. [P1 README.md](p1/README.md "My P1 README.md file")
 
