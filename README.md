@@ -21,7 +21,7 @@
       * Develop “mobile first” applications using HTML, CSS, JavaScript, jQuery, XML, Java skills, client- as well as server-side skills, and data repository interfaces;
       * Use industry standard design architectures when creating mobile applications, Utilize current development tools and APIs to build mobile applications, and Review and analyze mobile hardware and software limitations based upon current literature
 
-#### [LIS4381: Advanced Database Management ](lis3781/README.md)
+#### [LIS3781: Advanced Database Management ](lis3781/README.md)
     * Course Description: This course explores various topics in database management systems (DBMS), using a typical commercial DMBS (e.g., MySQL, SQL Server, Oracle), as well as non-relational data repositories (aka “NoSQL” databases). Administration, Security, stored procedures, triggers, transactions, functions, data mining, data analytics, data warehousing, and remote access to databases are some of the topics covered. The student is expected to demonstrate an understanding of these database concepts through creating, deploying, and utilizing various relational database designs.
     * Course Objectives
       *  Perform advanced relational data modeling, using Entity-Relationship diagrams. Design a data warehouse.
@@ -30,7 +30,7 @@
       *  Justify and define user’s roles, permissions, and access-levels as a database administrator. Create database security settings.
       *  Demonstrate an understanding of data warehousing, data mining, and data analytic techniques.
 
-#### [LIS4368: Advanced Web Application](lis4381/README.md)
+#### [LIS4368: Advanced Web Application](lis4368/README.md)
     * Course Description:This course provides a foundation in developing web applications with an emphasis on server-side concepts, tools and methods. Topics include basic web application programming, advanced object- oriented (OOP) and web application development utilizing Tomcat and Java Servlets.
     * Cource Objectives
       * Demonstrate the ability to program and deploy client/server-side scripts
