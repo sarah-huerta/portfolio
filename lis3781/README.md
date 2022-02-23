@@ -14,13 +14,12 @@
          * SQL Queries and ERD Creation
          * the completed tutorial (bitbucketstationlocations).
 
-
 3. [MySQL Server and User Creation](a2/README.md "My A2 README.md file")
     * Creating tables, database, and insert statements using MySQL Server.
     * Granting Privilages to different users on server.
     * Populating data and pushing to both local and cloud server.
 
-4. [Oracle Diminstration](a3/README.md "My A3 README.md file")
+4. [Oracle Database Creation](a3/README.md "My A3 README.md file")
     * Download, Install, and operate Microsoft Remote Desktop to run Oracle Server
     * Create Customer, Commodity, and Order tables
     * Create and Excute Queries to retrieve specified information
