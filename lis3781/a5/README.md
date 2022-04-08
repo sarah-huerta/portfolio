@@ -8,6 +8,17 @@
 2. Use of Salt and Hash with SHA 512 method.
 3. Deliverable of Entity Relational Diagram
 
-| ERD for Home Office Supply Company |
+#### Entity Relational Diagram
+| Home Office Supply Company |
 | -- |
 | ![a5](erd.png) |
+
+#### Stored Procedure Examples
+
+| Trigger Sales History Insert Part 1 |  Trigger Sales History Insert Part 2 |
+| --- | -- |
+|![tri1](trig.png) | ![tring2.png](tring2.png) |
+
+|Sample Report Output |
+| -- |
+| ![report](report.png) |
