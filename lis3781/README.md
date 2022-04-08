@@ -40,5 +40,3 @@
     * Use of MS SQL Server to create high volume Database
     * Use of Salt and Hash with SHA 512 method.
     * Deliverable of Entity Relational Diagram
-
-6. [P2 README.md](p2/README.md "My P2 README.md file")
