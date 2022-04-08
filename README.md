@@ -39,11 +39,3 @@
       * Develop a dynamic web application using a mix of front-end and back-end web technologies
       * Employ OOP techniques, as well as business logic using a strongly typed language.
       * Create client- and server-side data validation.
-
-  #### [LIS4761: Data Mining and Analytics(lis4761/README.md)
-      * Course Description:This course provides basic concepts and essential algorithms for data analytics, including data cleaning, association rule mining, data warehousing, predictive modeling, clustering, and text mining. It also gives students an introduction to data analytics, which is defined as the extensive use of data, statistical and quantitative analysis, predictive and exploratory models to drive decisions and actions
-      * Course Objectives
-        * Use data analytics tools with a graphical user interface (e.g., Weka and Orange Data Mining) to perform basic data analytics tasks such as clustering, association rule mining, classification, visualization, and text mining.
-        * Interpret the results of data analytics while acknowledging their limitations
-        * Explain and use prominent algorithms in data analytics, including predictive analytics, clustering, association rule mining, text mining, and visual analytics.
-        * Use data analytics tools with a graphical user interface (e.g., Weka and Orange Data Mining) and Python in Jupyter Notebook to perform basic data analytics tasks such as clustering, association rule mining, classification.

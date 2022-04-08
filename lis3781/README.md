@@ -24,11 +24,11 @@
 3. [A3 README.md](a3/README.md "My A3 README.md file")
     * Download, Install, and operate Microsoft Remote Desktop to run Oracle Server
     * Create Customer, Commodity, and Order tables
-    * Create and Excute Queries to retrieve specified information
+    * Create and Execute Queries to retrieve specified information
 
 4. [P1 README.md](p1/README.md "My P1 README.md file")
     * Use of MySQL server to create local city court case database.
-    * Using SHA2 in order to protect sensetive information i.e. SSN's
+    * Using SHA2 in order to protect sensitive information i.e. SSN's
     * Creation of stored procedures to salt and hash information.
 
 5. [A4 README.md](a4/README.md "My A4 README.md file")
