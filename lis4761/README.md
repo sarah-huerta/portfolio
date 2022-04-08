@@ -1,15 +1,13 @@
 
 
-# LIS4368 Advanced Web Application Development
+# LIS4671 Data Mining and Analytics
 
 ## Sarah Huerta
 
 
 *Course Work Links*
 
-Please Check Back Soon For Updates
-
- 1. [A1 README.md](a1/README.md "My A1 README.md file")
+ 1. [Machine Learning Report analysis]("https://docs.google.com/document/d/1xgA77E8LMoVXDZXAS-c_s4Qz555Gxu5T/edit?usp=sharing&ouid=116501162107277728216&rtpof=true&sd=true")
      * Distributed Version Control with Git and Bitbucket
      * Development Installations
      * Bitbucket repository links
