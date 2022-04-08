@@ -1,0 +1,5 @@
+(NULL, 11, 'traffic', 'client ran a red light', '2010-09-01', NULL, 'illegal Actions have consesquences.'),
+(NULL, 12, 'civil', 'client partied a little too hard', '2009-01-19', NULL, NULL),
+(NULL, 13, 'criminal', 'client almost killed someone', '2009-01-01', 2010-02-02, 'Charges dropped'),
+(NULL, 13, 'civil', 'client jay-walked on campus', '2008-12-01', NULL, 'illegal Actions have consesquences.'),
+(NULL, 15, 'civil', 'client did not know that they should pay taxes', '2010-01-01', NULL, NULL),
