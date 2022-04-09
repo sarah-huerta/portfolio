@@ -10,7 +10,7 @@
  1. [Machine Learning Report analysis]("https://docs.google.com/document/d/1xgA77E8LMoVXDZXAS-c_s4Qz555Gxu5T/edit?usp=sharing&ouid=116501162107277728216&rtpof=true&sd=true")
      * Distributed Version Control with Git and Bitbucket
      * Development Installations
-     * Bitbucket repository links test
+     * Bitbucket repository links t
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
      * Creation of Database Servlet Webpage
